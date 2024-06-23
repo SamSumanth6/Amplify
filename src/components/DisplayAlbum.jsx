@@ -22,7 +22,7 @@ const DisplayAlbum = () => {
           <p className="mt-1">
             <img
               className="inline-block w-5 mr-2"
-              src={assets.spotify_logo}
+              src={assets.Amplify_icon}
               alt=""
             />
             <b className="mr-2">Amplify</b>• 1,323,154 likes • <b>50 songs, </b>
