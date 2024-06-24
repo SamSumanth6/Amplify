@@ -20,27 +20,33 @@ import queue_icon from './queue.png'
 import volume_icon from './volume.png'
 import arrow_right from './right_arrow.png'
 import arrow_left from './left_arrow.png'
-import spotify_logo from './spotify_logo.png'
 import clock_icon from './clock_icon.png'
-import img1 from './img1.jpg'
-import img2 from './img2.jpg'
-import img3 from './img3.jpg'
-import img4 from './img4.jpg'
-import img5 from './img5.jpg'
-import img6 from './img6.jpg'
-import img7 from './img7.jpg'
 import img8 from './img8.jpg'
 import img9 from './img9.jpg'
 import img10 from './img10.jpg'
 import img11 from './img11.jpg'
-import img12 from './img12.jpg'
-import img13 from './img13.jpg'
-import img14 from './img14.jpg'
 import img15 from './img15.jpg'
 import img16 from './img16.jpg'
-import song1 from  './song1.mp3'
-import song2 from  './song2.mp3'
-import song3 from  './song3.mp3'
+import hungryCheetahImg from './hungryCheetahImg.jpg'
+import StarBoyImg from './StarBoyImg.png'
+import KesariyaImg from './KesariyaImg.jpg'
+import AnuvanuvuuImg from './AnuvanuvuuImg.jpg'
+import HeartStereoImg from './HeartStereoImg.jpg'
+import SatrangaImg from './SatrangaImg.jpg'
+import SalaamRockyBhaiImg from './SalaamRockyBhaiImg.jpg'
+import TheresNothingImg from './TheresNothingImg.jpg'
+import YouandIImg from './YouandIImg.jpg'
+//songs
+import HungryCheetah from './HungryCheetah.mp3'
+import StarBoy from './StarBoy.mp3'
+import Kesariya from './Kesariya.mp3'
+import Anuvanuvuu from './Anuvanuvuu.mp3'
+import HeartStereo from './HeartStereo.mp3'
+import Satranga  from './Satranga.mp3'
+import SalaamRockyBhai from './SalaamRockyBhai.mp3'
+import TheresNothing from './TheresNothing.mp3'
+import YouandI from './YouandI.mp3' 
+
 import Amplify_icon from '../assets/Amplify_final_icon1.png'
 
 export const assets = {
@@ -118,66 +124,75 @@ export const albumsData = [
 export const songsData = [
     {
         id:0,
-        name: "Song One",
-        image: img1,
-        file:song1,
-        desc:"Put a smile on your face with these happy tunes",
-        duration:"3:00"
+        name: "Hungry Cheetah",
+        image: hungryCheetahImg,
+        file:HungryCheetah,
+        desc:"OG",
+        duration:"1:59"
     },
     {
         id:1,
-        name: "Song Two",
-        image: img2,
-        file:song2,
-        desc:"Put a smile on your face with these happy tunes",
-        duration:"2:20"
+        name: "Starboy",
+        image: StarBoyImg,
+        file:StarBoy,
+        desc:"The Weekend",
+        duration:"3:50"
     },
     {
         id:2,
-        name: "Song Three",
-        image: img3,
-        file:song3,
-        desc:"Put a smile on your face with these happy tunes",
-        duration:"2:32"
+        name: "Kesariya",
+        image: KesariyaImg,
+        file:Kesariya,
+        desc:"Brahmāstra",
+        duration:"2:52"
     },
     {
         id:3,
-        name: "Song Four",
-        image: img4,
-        file:song1,
-        desc:"Put a smile on your face with these happy tunes",
-        duration:"2:50"
+        name: "Anuvanuvuu",
+        image: AnuvanuvuuImg,
+        file:Anuvanuvuu,
+        desc:"Om Bheem Bush",
+        duration:"3:31"
     },
     {
         id:4,
-        name: "Song Five",
-        image: img5,
-        file:song2,
-        desc:"Put a smile on your face with these happy tunes",
-        duration:"3:10"
+        name: "Heart Stereo",
+        image: HeartStereoImg,
+        file:HeartStereo,
+        desc:"Gym Class Heroes",
+        duration:"3:31"
     },
     {
         id:5,
-        name: "Song Six",
-        image: img14    ,
-        file:song3,
-        desc:"Put a smile on your face with these happy tunes",
-        duration:"2:45"
+        name: "Satranga",
+        image: SatrangaImg,
+        file:Satranga,
+        desc:"Animal",
+        duration:"4:51"
     },
     {
         id:6,
-        name: "Song Seven",
-        image: img7,
-        file:song1,
-        desc:"Put a smile on your face with these happy tunes",
-        duration:"2:18"
+        name: "Salaam Rocky Bhai ",
+        image: SalaamRockyBhaiImg,
+        file:SalaamRockyBhai,
+        desc:"KGF",
+        duration:"4:17"
     },
     {
         id:7,
-        name: "Song Eight",
-        image: img12,
-        file:song2,
-        desc:"Put a smile on your face with these happy tunes",
-        duration:"2:35"
-    }
+        name: "There's Nothing",
+        image: TheresNothingImg,
+        file:TheresNothing,
+        desc:"Shawn Mendes",
+        duration:"3:25"
+    },
+    {
+        id:8,
+        name: "You & I ",
+        image: YouandIImg,
+        file:YouandI ,
+        desc:"Jalsa",
+        duration:"4:59"
+    },
+    
 ]
